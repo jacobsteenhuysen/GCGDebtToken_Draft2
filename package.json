@@ -1,0 +1,35 @@
+{
+  "name": "debt-smart-contract",
+  "version": "0.0.1",
+  "description": "ChronoLogic Debt Smart Contracts",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "scripts/test.sh",
+    "lint:sol": "./node_modules/solium/bin/solium.js -d ./contracts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronologic/debt-smart-contract.git"
+  },
+  "keywords": [
+    "chronologic",
+    "debt",
+    "smart-contract",
+    "ethereum"
+  ],
+  "author": "Chronologic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chronologic/debt-smart-contract/issues"
+  },
+  "homepage": "https://github.com/chronologic/debt-smart-contract#readme",
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "ganache-cli": "^6.0.3",
+    "solium": "^1.1.3",
+    "truffle": "^4.0.5"
+  }
+}
